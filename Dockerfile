@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.3
+FROM alpine:3.13.6
 
 RUN apk add curl bash jq coreutils perl --no-cache
 
